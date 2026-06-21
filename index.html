@@ -81,10 +81,10 @@
         width: 8px;
       }
       ::-webkit-scrollbar-track {
-        background: #F7F4EF;
+        background: #f7f4ef;
       }
       ::-webkit-scrollbar-thumb {
-        background: #2A4B3C;
+        background: #2a4b3c;
         border-radius: 4px;
       }
     </style>
@@ -125,7 +125,8 @@
           <span
             class="relative font-medium tracking-wider text-white flex items-center text-lg"
           >
-            <i class="fas fa-envelope-open-text mr-2 animate-bounce"></i> Mở Thiệp
+            <i class="fas fa-envelope-open-text mr-2 animate-bounce"></i> Mở
+            Thiệp
           </span>
         </button>
       </div>
@@ -134,7 +135,7 @@
     <!-- Audio & Nút bật tắt nhạc nền -->
     <audio id="bg-music" loop>
       <source
-        src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_784d122604.mp3?filename=beautiful-piano-109577.mp3"
+        src="https://archive.org/download/westlifebeautifulinwhite_201911/Westlife%20-%20Beautiful%20in%20White.mp3"
         type="audio/mpeg"
       />
     </audio>
@@ -228,9 +229,7 @@
     >
       <div
         class="absolute inset-0 w-full h-full bg-cover bg-[center_15%] bg-no-repeat"
-        style="
-          background-image: url(&quot;P_T05480....jpg&quot;);
-        "
+        style="background-image: url(&quot;P_T05480....jpg&quot;)"
       ></div>
       <div class="absolute inset-0 hero-overlay"></div>
 
@@ -337,7 +336,9 @@
           class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch fade-in"
         >
           <!-- Cột 1: Lịch Tháng (Rộng 5/12 trên màn hình lớn) -->
-          <div class="lg:col-span-5 flex flex-col justify-center bg-white p-8 rounded-2xl shadow-md border border-blush text-center hover:shadow-xl transition-shadow duration-300">
+          <div
+            class="lg:col-span-5 flex flex-col justify-center bg-white p-8 rounded-2xl shadow-md border border-blush text-center hover:shadow-xl transition-shadow duration-300"
+          >
             <div
               class="w-16 h-16 bg-blush rounded-full flex items-center justify-center mx-auto mb-6"
             >
@@ -354,17 +355,27 @@
             <div
               class="mt-2 mb-6 bg-[#FDFBF7] rounded-xl p-5 mx-auto w-full max-w-[320px] border border-rose/20 shadow-sm relative overflow-hidden"
             >
-              <div class="absolute -top-4 -right-4 text-rose/10 text-6xl pointer-events-none z-0">
+              <div
+                class="absolute -top-4 -right-4 text-rose/10 text-6xl pointer-events-none z-0"
+              >
                 <i class="fas fa-calendar-check"></i>
               </div>
 
               <!-- Header Lịch -->
               <div class="flex justify-between items-center mb-4 relative z-10">
-                <span class="text-rose font-bold cursor-pointer hover:text-rose/70 transition">&lt;</span>
-                <h5 class="font-serif text-base text-charcoal font-semibold tracking-wide">
+                <span
+                  class="text-rose font-bold cursor-pointer hover:text-rose/70 transition"
+                  >&lt;</span
+                >
+                <h5
+                  class="font-serif text-base text-charcoal font-semibold tracking-wide"
+                >
                   Tháng 07 Năm 2026
                 </h5>
-                <span class="text-rose font-bold cursor-pointer hover:text-rose/70 transition">&gt;</span>
+                <span
+                  class="text-rose font-bold cursor-pointer hover:text-rose/70 transition"
+                  >&gt;</span
+                >
               </div>
 
               <!-- Thứ trong tuần -->
@@ -389,7 +400,7 @@
                 <div class="py-1 hover:bg-white rounded cursor-pointer">1</div>
                 <div class="py-1 hover:bg-white rounded cursor-pointer">2</div>
                 <div class="py-1 hover:bg-white rounded cursor-pointer">3</div>
-                
+
                 <!-- Ngày 4: Lễ ăn hỏi & Tiệc tiếp đón -->
                 <div class="py-1 relative group cursor-pointer">
                   <div class="absolute inset-0 bg-rose/10 rounded-full"></div>
@@ -427,7 +438,11 @@
                 <div class="py-1 hover:bg-white rounded cursor-pointer">9</div>
                 <div class="py-1 hover:bg-white rounded cursor-pointer">10</div>
                 <div class="py-1 hover:bg-white rounded cursor-pointer">11</div>
-                <div class="py-1 text-rose/70 hover:bg-white rounded cursor-pointer">12</div>
+                <div
+                  class="py-1 text-rose/70 hover:bg-white rounded cursor-pointer"
+                >
+                  12
+                </div>
 
                 <!-- Hàng 3 -->
                 <div class="py-1 hover:bg-white rounded cursor-pointer">13</div>
@@ -436,7 +451,11 @@
                 <div class="py-1 hover:bg-white rounded cursor-pointer">16</div>
                 <div class="py-1 hover:bg-white rounded cursor-pointer">17</div>
                 <div class="py-1 hover:bg-white rounded cursor-pointer">18</div>
-                <div class="py-1 text-rose/70 hover:bg-white rounded cursor-pointer">19</div>
+                <div
+                  class="py-1 text-rose/70 hover:bg-white rounded cursor-pointer"
+                >
+                  19
+                </div>
 
                 <!-- Hàng 4 -->
                 <div class="py-1 hover:bg-white rounded cursor-pointer">20</div>
@@ -445,7 +464,11 @@
                 <div class="py-1 hover:bg-white rounded cursor-pointer">23</div>
                 <div class="py-1 hover:bg-white rounded cursor-pointer">24</div>
                 <div class="py-1 hover:bg-white rounded cursor-pointer">25</div>
-                <div class="py-1 text-rose/70 hover:bg-white rounded cursor-pointer">26</div>
+                <div
+                  class="py-1 text-rose/70 hover:bg-white rounded cursor-pointer"
+                >
+                  26
+                </div>
 
                 <!-- Hàng 5 -->
                 <div class="py-1 hover:bg-white rounded cursor-pointer">27</div>
@@ -464,7 +487,8 @@
                   target="_blank"
                   class="inline-flex items-center justify-center text-xs text-rose hover:text-charcoal transition font-medium w-full bg-white py-2.5 rounded-lg border border-rose/20 shadow-sm hover:shadow-md hover:border-rose/50"
                 >
-                  <i class="far fa-calendar-plus mr-2 text-sm"></i> Thêm vào Lịch Google
+                  <i class="far fa-calendar-plus mr-2 text-sm"></i> Thêm vào
+                  Lịch Google
                 </a>
               </div>
             </div>
@@ -473,18 +497,26 @@
           <!-- Cột 2: Danh sách sự kiện (Rộng 7/12 trên màn hình lớn) -->
           <div class="lg:col-span-7 flex flex-col gap-6">
             <!-- Event 1: Lễ Ăn Hỏi -->
-            <div class="bg-white p-6 rounded-2xl shadow-sm border border-blush hover:shadow-md transition duration-300 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div
+              class="bg-white p-6 rounded-2xl shadow-sm border border-blush hover:shadow-md transition duration-300 flex flex-col md:flex-row md:items-center justify-between gap-4"
+            >
               <div class="flex items-start gap-4">
-                <div class="w-12 h-12 rounded-xl bg-blush flex items-center justify-center text-rose shrink-0">
+                <div
+                  class="w-12 h-12 rounded-xl bg-blush flex items-center justify-center text-rose shrink-0"
+                >
                   <i class="fas fa-handshake text-xl"></i>
                 </div>
                 <div>
-                  <h4 class="font-serif text-xl text-charcoal font-semibold">Lễ Ăn Hỏi</h4>
+                  <h4 class="font-serif text-xl text-charcoal font-semibold">
+                    Lễ Ăn Hỏi
+                  </h4>
                   <p class="text-rose font-medium text-sm mt-0.5">
-                    <i class="far fa-clock mr-1"></i> 14h00 | Thứ Bảy, 04/07/2026 (20/05 Âm Lịch)
+                    <i class="far fa-clock mr-1"></i> 14h00 | Thứ Bảy,
+                    04/07/2026 (20/05 Âm Lịch)
                   </p>
                   <p class="text-gray-500 text-sm mt-2 font-medium">
-                    <i class="fas fa-map-marker-alt mr-1 text-rose"></i> Tư gia Nhà Gái: Hợp Thiện, Nam Hoa Lư, Ninh Bình
+                    <i class="fas fa-map-marker-alt mr-1 text-rose"></i> Tư gia
+                    Nhà Gái: Hợp Thiện, Nam Hoa Lư, Ninh Bình
                   </p>
                 </div>
               </div>
@@ -499,18 +531,26 @@
             </div>
 
             <!-- Event 2: Tiệc Tiếp Đón -->
-            <div class="bg-white p-6 rounded-2xl shadow-sm border border-blush hover:shadow-md transition duration-300 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div
+              class="bg-white p-6 rounded-2xl shadow-sm border border-blush hover:shadow-md transition duration-300 flex flex-col md:flex-row md:items-center justify-between gap-4"
+            >
               <div class="flex items-start gap-4">
-                <div class="w-12 h-12 rounded-xl bg-blush flex items-center justify-center text-rose shrink-0">
+                <div
+                  class="w-12 h-12 rounded-xl bg-blush flex items-center justify-center text-rose shrink-0"
+                >
                   <i class="fas fa-glass-cheers text-xl"></i>
                 </div>
                 <div>
-                  <h4 class="font-serif text-xl text-charcoal font-semibold">Tiệc Tiếp Đón</h4>
+                  <h4 class="font-serif text-xl text-charcoal font-semibold">
+                    Tiệc Tiếp Đón
+                  </h4>
                   <p class="text-rose font-medium text-sm mt-0.5">
-                    <i class="far fa-clock mr-1"></i> 18h00 | Thứ Bảy, 04/07/2026 (20/05 Âm Lịch)
+                    <i class="far fa-clock mr-1"></i> 18h00 | Thứ Bảy,
+                    04/07/2026 (20/05 Âm Lịch)
                   </p>
                   <p class="text-gray-500 text-sm mt-2 font-medium">
-                    <i class="fas fa-map-marker-alt mr-1 text-rose"></i> Tư gia Nhà Trai: Tương Lai, Nam Hoa Lư, Ninh Bình
+                    <i class="fas fa-map-marker-alt mr-1 text-rose"></i> Tư gia
+                    Nhà Trai: Tương Lai, Nam Hoa Lư, Ninh Bình
                   </p>
                 </div>
               </div>
@@ -525,22 +565,32 @@
             </div>
 
             <!-- Event 3: Lễ Thành Hôn -->
-            <div class="bg-white p-6 rounded-2xl shadow-sm border border-rose/20 hover:shadow-md transition duration-300 flex flex-col md:flex-row md:items-center justify-between gap-4 relative overflow-hidden">
-              <div class="absolute top-0 right-0 bg-rose text-white text-[10px] uppercase font-bold tracking-widest px-3 py-1 rounded-bl-xl">
+            <div
+              class="bg-white p-6 rounded-2xl shadow-sm border border-rose/20 hover:shadow-md transition duration-300 flex flex-col md:flex-row md:items-center justify-between gap-4 relative overflow-hidden"
+            >
+              <div
+                class="absolute top-0 right-0 bg-rose text-white text-[10px] uppercase font-bold tracking-widest px-3 py-1 rounded-bl-xl"
+              >
                 Lễ Chính
               </div>
-              
+
               <div class="flex items-start gap-4">
-                <div class="w-12 h-12 rounded-xl bg-rose flex items-center justify-center text-white shrink-0 shadow-md">
+                <div
+                  class="w-12 h-12 rounded-xl bg-rose flex items-center justify-center text-white shrink-0 shadow-md"
+                >
                   <i class="fas fa-ring text-xl"></i>
                 </div>
                 <div>
-                  <h4 class="font-serif text-xl text-charcoal font-semibold">Lễ Thành Hôn</h4>
+                  <h4 class="font-serif text-xl text-charcoal font-semibold">
+                    Lễ Thành Hôn
+                  </h4>
                   <p class="text-rose font-medium text-sm mt-0.5">
-                    <i class="far fa-clock mr-1"></i> 08h00 | Chủ Nhật, 05/07/2026 (21/05 Âm Lịch)
+                    <i class="far fa-clock mr-1"></i> 08h00 | Chủ Nhật,
+                    05/07/2026 (21/05 Âm Lịch)
                   </p>
                   <p class="text-gray-500 text-sm mt-2 font-medium">
-                    <i class="fas fa-map-marker-alt mr-1 text-rose"></i> Tư gia Nhà Trai: Tương Lai, Nam Hoa Lư, Ninh Bình
+                    <i class="fas fa-map-marker-alt mr-1 text-rose"></i> Tư gia
+                    Nhà Trai: Tương Lai, Nam Hoa Lư, Ninh Bình
                   </p>
                 </div>
               </div>
@@ -573,12 +623,15 @@
                 onclick="switchMap('trai')"
                 class="px-5 py-2.5 text-xs md:text-sm font-semibold rounded-full shadow-sm transition-all duration-300 bg-rose text-white"
               >
-                <i class="fas fa-male mr-1.5"></i> Bản đồ Nhà Trai (Tiệc Đón & Thành Hôn)
+                <i class="fas fa-male mr-1.5"></i> Bản đồ Nhà Trai (Tiệc Đón &
+                Thành Hôn)
               </button>
             </div>
 
             <!-- Iframe Bản đồ -->
-            <div class="w-full h-[450px] rounded-xl overflow-hidden border border-gray-100 relative shadow-inner">
+            <div
+              class="w-full h-[450px] rounded-xl overflow-hidden border border-gray-100 relative shadow-inner"
+            >
               <iframe
                 id="map-iframe"
                 src="https://maps.google.com/maps?q=656%20Ng%C3%B4%20Gia%20T%E1%BB%B1,%20Nam%20Hoa%20L%C6%B0,%20Ninh%20B%C3%ACnh&t=&z=16&ie=UTF8&iwloc=&output=embed"
@@ -600,7 +653,8 @@
                 target="_blank"
                 class="inline-flex items-center text-sm text-rose hover:underline font-semibold"
               >
-                <i class="fas fa-directions mr-1.5"></i> Mở bằng ứng dụng Google Maps chính thức
+                <i class="fas fa-directions mr-1.5"></i> Mở bằng ứng dụng Google
+                Maps chính thức
               </a>
             </div>
           </div>
@@ -621,11 +675,12 @@
           <div class="w-12 h-1 bg-champagne mx-auto mt-6"></div>
         </div>
 
-        <div
-          class="flex flex-wrap justify-center gap-4 md:gap-6 fade-in"
-        >
+        <div class="flex flex-wrap justify-center gap-4 md:gap-6 fade-in">
           <!-- Ảnh 1 -->
-          <div class="w-[calc(50%-0.5rem)] md:w-[calc(33.33%-1rem)] overflow-hidden rounded-2xl group shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onclick="openLightbox(0)">
+          <div
+            class="w-[calc(50%-0.5rem)] md:w-[calc(33.33%-1rem)] overflow-hidden rounded-2xl group shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer"
+            onclick="openLightbox(0)"
+          >
             <img
               src="P_T05432...jpg"
               class="w-full aspect-[2/3] object-cover object-center transform group-hover:scale-105 transition duration-700"
@@ -633,7 +688,10 @@
             />
           </div>
           <!-- Ảnh 2 -->
-          <div class="w-[calc(50%-0.5rem)] md:w-[calc(33.33%-1rem)] overflow-hidden rounded-2xl group shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onclick="openLightbox(1)">
+          <div
+            class="w-[calc(50%-0.5rem)] md:w-[calc(33.33%-1rem)] overflow-hidden rounded-2xl group shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer"
+            onclick="openLightbox(1)"
+          >
             <img
               src="P_T05452....jpg"
               class="w-full aspect-[2/3] object-cover object-center transform group-hover:scale-105 transition duration-700"
@@ -641,7 +699,10 @@
             />
           </div>
           <!-- Ảnh 3 -->
-          <div class="w-[calc(50%-0.5rem)] md:w-[calc(33.33%-1rem)] overflow-hidden rounded-2xl group shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onclick="openLightbox(2)">
+          <div
+            class="w-[calc(50%-0.5rem)] md:w-[calc(33.33%-1rem)] overflow-hidden rounded-2xl group shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer"
+            onclick="openLightbox(2)"
+          >
             <img
               src="P_T05590...jpg"
               class="w-full aspect-[2/3] object-cover object-center transform group-hover:scale-105 transition duration-700"
@@ -649,7 +710,10 @@
             />
           </div>
           <!-- Ảnh 4 -->
-          <div class="w-[calc(50%-0.5rem)] md:w-[calc(33.33%-1rem)] overflow-hidden rounded-2xl group shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onclick="openLightbox(3)">
+          <div
+            class="w-[calc(50%-0.5rem)] md:w-[calc(33.33%-1rem)] overflow-hidden rounded-2xl group shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer"
+            onclick="openLightbox(3)"
+          >
             <img
               src="P_T05638...jpg"
               class="w-full aspect-[2/3] object-cover object-center transform group-hover:scale-105 transition duration-700"
@@ -657,7 +721,10 @@
             />
           </div>
           <!-- Ảnh 5 -->
-          <div class="w-[calc(50%-0.5rem)] md:w-[calc(33.33%-1rem)] overflow-hidden rounded-2xl group shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer" onclick="openLightbox(4)">
+          <div
+            class="w-[calc(50%-0.5rem)] md:w-[calc(33.33%-1rem)] overflow-hidden rounded-2xl group shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer"
+            onclick="openLightbox(4)"
+          >
             <img
               src="P_T05670...jpg"
               class="w-full aspect-[2/3] object-cover object-center transform group-hover:scale-105 transition duration-700"
@@ -922,22 +989,22 @@
           <p class="text-gray-500 text-sm mb-6">Quét mã QR hoặc chuyển khoản</p>
 
           <img
-            src="qr1.jpg"
+            src="https://raw.githubusercontent.com/TrungHai23/my-assets/main/qr1.jpg"
             alt="QR Code"
             class="w-56 h-56 mx-auto object-cover rounded-xl mb-6 shadow-sm border p-2 bg-white"
           />
 
-          <p class="font-semibold text-lg text-charcoal">
-            Ngân hàng Vietcombank
-          </p>
+          <p class="font-semibold text-lg text-charcoal">Ngân hàng MBBank</p>
           <p
             class="text-rose my-1 font-mono text-xl font-bold tracking-wider"
             id="stk-mung-cuoi"
           >
-            1023456789
+            0828211135
           </p>
-          <p class="text-gray-500 text-sm uppercase tracking-wider mb-8 font-medium">
-            PHẠM TRỌNG TẤN
+          <p
+            class="text-gray-500 text-sm uppercase tracking-wider mb-8 font-medium"
+          >
+            NGUYEN DIEU LINH
           </p>
 
           <button
@@ -946,7 +1013,7 @@
           >
             <i class="far fa-copy mr-2"></i> Sao chép Số tài khoản
           </button>
-          
+
           <a
             href="qr1.jpg"
             download="QR_Mung_Cuoi_Trong_Tan.jpg"
@@ -986,14 +1053,19 @@
       </button>
 
       <!-- Lightbox Content -->
-      <div class="max-w-5xl max-h-[85vh] px-4 flex flex-col items-center justify-center">
+      <div
+        class="max-w-5xl max-h-[85vh] px-4 flex flex-col items-center justify-center"
+      >
         <img
           id="lightbox-img"
           src=""
           alt="Ảnh cưới phóng to"
           class="max-w-full max-h-[80vh] object-contain rounded-lg shadow-2xl border border-white/10"
         />
-        <p id="lightbox-caption" class="text-white/60 mt-4 text-sm font-light tracking-widest uppercase"></p>
+        <p
+          id="lightbox-caption"
+          class="text-white/60 mt-4 text-sm font-light tracking-widest uppercase"
+        ></p>
       </div>
     </div>
 
@@ -1062,6 +1134,7 @@
       let isMusicPlaying = false;
 
       function openInvitation() {
+        window.scrollTo(0, 0); // Scroll to top instantly
         introScreen.style.transform = "translateY(-100%)";
         document.body.classList.remove("overflow-hidden");
         musicToggle.classList.remove("hidden");
@@ -1206,21 +1279,31 @@
         const externalLink = document.getElementById("map-external-link");
 
         if (type === "gai") {
-          iframe.src = "https://maps.google.com/maps?q=503%20Ph%E1%BA%A1m%20Th%E1%BA%ADn%20Du%E1%BA%ADt,%20Nam%20Hoa%20L%C6%B0,%20Ninh%20B%C3%ACnh&t=&z=16&ie=UTF8&iwloc=&output=embed";
-          externalLink.href = "https://www.google.com/maps/place/503+Ph%E1%BA%A1m+Th%E1%BA%ADn+Du%E1%BA%ADt,+Nam+Hoa+L%C6%B0,+Ninh+B%C3%ACnh,+Vi%E1%BB%87t+Nam/@20.2214602,105.9862254,17z/data=!3m1!4b1!4m6!3m5!1s0x313670919f97bb7f:0x703377c2fa091fa7!8m2!3d20.2214602!4d105.9862254!16s%2Fg%2F11shrt_vz9?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D";
-          
-          btnGai.className = "px-5 py-2.5 text-xs md:text-sm font-semibold rounded-full shadow-sm transition-all duration-300 bg-rose text-white";
-          btnTrai.className = "px-5 py-2.5 text-xs md:text-sm font-semibold rounded-full shadow-sm transition-all duration-300 bg-white text-rose border border-rose/20 hover:border-rose";
+          iframe.src =
+            "https://maps.google.com/maps?q=503%20Ph%E1%BA%A1m%20Th%E1%BA%ADn%20Du%E1%BA%ADt,%20Nam%20Hoa%20L%C6%B0,%20Ninh%20B%C3%ACnh&t=&z=16&ie=UTF8&iwloc=&output=embed";
+          externalLink.href =
+            "https://www.google.com/maps/place/503+Ph%E1%BA%A1m+Th%E1%BA%ADn+Du%E1%BA%ADt,+Nam+Hoa+L%C6%B0,+Ninh+B%C3%ACnh,+Vi%E1%BB%87t+Nam/@20.2214602,105.9862254,17z/data=!3m1!4b1!4m6!3m5!1s0x313670919f97bb7f:0x703377c2fa091fa7!8m2!3d20.2214602!4d105.9862254!16s%2Fg%2F11shrt_vz9?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D";
+
+          btnGai.className =
+            "px-5 py-2.5 text-xs md:text-sm font-semibold rounded-full shadow-sm transition-all duration-300 bg-rose text-white";
+          btnTrai.className =
+            "px-5 py-2.5 text-xs md:text-sm font-semibold rounded-full shadow-sm transition-all duration-300 bg-white text-rose border border-rose/20 hover:border-rose";
         } else {
-          iframe.src = "https://maps.google.com/maps?q=656%20Ng%C3%B4%20Gia%20T%E1%BB%B1,%20Nam%20Hoa%20L%C6%B0,%20Ninh%20B%C3%ACnh&t=&z=16&ie=UTF8&iwloc=&output=embed";
-          externalLink.href = "https://google.com/maps?q=656+Ngô+Gia+Tự,+Nam+Hoa+Lư,+Ninh+Bình&ftid=0x313670a07c62ba5d:0x310cb931cc7b9b2e";
-          
-          btnTrai.className = "px-5 py-2.5 text-xs md:text-sm font-semibold rounded-full shadow-sm transition-all duration-300 bg-rose text-white";
-          btnGai.className = "px-5 py-2.5 text-xs md:text-sm font-semibold rounded-full shadow-sm transition-all duration-300 bg-white text-rose border border-rose/20 hover:border-rose";
+          iframe.src =
+            "https://maps.google.com/maps?q=656%20Ng%C3%B4%20Gia%20T%E1%BB%B1,%20Nam%20Hoa%20L%C6%B0,%20Ninh%20B%C3%ACnh&t=&z=16&ie=UTF8&iwloc=&output=embed";
+          externalLink.href =
+            "https://google.com/maps?q=656+Ngô+Gia+Tự,+Nam+Hoa+Lư,+Ninh+Bình&ftid=0x313670a07c62ba5d:0x310cb931cc7b9b2e";
+
+          btnTrai.className =
+            "px-5 py-2.5 text-xs md:text-sm font-semibold rounded-full shadow-sm transition-all duration-300 bg-rose text-white";
+          btnGai.className =
+            "px-5 py-2.5 text-xs md:text-sm font-semibold rounded-full shadow-sm transition-all duration-300 bg-white text-rose border border-rose/20 hover:border-rose";
         }
-        
+
         // Scroll map section into view smoothly
-        document.getElementById("map-iframe").scrollIntoView({ behavior: "smooth", block: "nearest" });
+        document
+          .getElementById("map-iframe")
+          .scrollIntoView({ behavior: "smooth", block: "nearest" });
       }
 
       // --- Lightbox Gallery Logic ---
@@ -1229,7 +1312,7 @@
         "P_T05452....jpg",
         "P_T05590...jpg",
         "P_T05638...jpg",
-        "P_T05670...jpg"
+        "P_T05670...jpg",
       ];
       let currentLightboxIdx = 0;
 
@@ -1261,15 +1344,21 @@
       }
 
       function prevLightboxImage() {
-        currentLightboxIdx = (currentLightboxIdx - 1 + lightboxImages.length) % lightboxImages.length;
-        document.getElementById("lightbox-img").src = lightboxImages[currentLightboxIdx];
-        document.getElementById("lightbox-caption").innerText = `Khoảnh khắc cưới ${currentLightboxIdx + 1} / ${lightboxImages.length}`;
+        currentLightboxIdx =
+          (currentLightboxIdx - 1 + lightboxImages.length) %
+          lightboxImages.length;
+        document.getElementById("lightbox-img").src =
+          lightboxImages[currentLightboxIdx];
+        document.getElementById("lightbox-caption").innerText =
+          `Khoảnh khắc cưới ${currentLightboxIdx + 1} / ${lightboxImages.length}`;
       }
 
       function nextLightboxImage() {
         currentLightboxIdx = (currentLightboxIdx + 1) % lightboxImages.length;
-        document.getElementById("lightbox-img").src = lightboxImages[currentLightboxIdx];
-        document.getElementById("lightbox-caption").innerText = `Khoảnh khắc cưới ${currentLightboxIdx + 1} / ${lightboxImages.length}`;
+        document.getElementById("lightbox-img").src =
+          lightboxImages[currentLightboxIdx];
+        document.getElementById("lightbox-caption").innerText =
+          `Khoảnh khắc cưới ${currentLightboxIdx + 1} / ${lightboxImages.length}`;
       }
 
       document.addEventListener("keydown", (e) => {
@@ -1312,13 +1401,17 @@
         if (type === "groom") {
           contentGroom.classList.remove("hidden");
           contentBride.classList.add("hidden");
-          tabGroom.className = "flex-1 py-2 text-xs font-semibold rounded-lg bg-rose text-white transition-all duration-300 shadow-sm";
-          tabBride.className = "flex-1 py-2 text-xs font-semibold rounded-lg text-rose hover:text-rose/80 transition-all duration-300";
+          tabGroom.className =
+            "flex-1 py-2 text-xs font-semibold rounded-lg bg-rose text-white transition-all duration-300 shadow-sm";
+          tabBride.className =
+            "flex-1 py-2 text-xs font-semibold rounded-lg text-rose hover:text-rose/80 transition-all duration-300";
         } else {
           contentGroom.classList.add("hidden");
           contentBride.classList.remove("hidden");
-          tabBride.className = "flex-1 py-2 text-xs font-semibold rounded-lg bg-rose text-white transition-all duration-300 shadow-sm";
-          tabGroom.className = "flex-1 py-2 text-xs font-semibold rounded-lg text-rose hover:text-rose/80 transition-all duration-300";
+          tabBride.className =
+            "flex-1 py-2 text-xs font-semibold rounded-lg bg-rose text-white transition-all duration-300 shadow-sm";
+          tabGroom.className =
+            "flex-1 py-2 text-xs font-semibold rounded-lg text-rose hover:text-rose/80 transition-all duration-300";
         }
       }
 
@@ -1389,11 +1482,16 @@
 
         // Submit to Formspree or Google Sheets
         const action = form.getAttribute("action");
-        if (action && !action.includes("YOUR_FORM_ID") && action.startsWith("http")) {
+        if (
+          action &&
+          !action.includes("YOUR_FORM_ID") &&
+          action.startsWith("http")
+        ) {
           const submitBtn = form.querySelector('button[type="submit"]');
           const originalBtnText = submitBtn.innerHTML;
           submitBtn.disabled = true;
-          submitBtn.innerHTML = '<i class="fas fa-spinner animate-spin mr-2"></i>Đang gửi...';
+          submitBtn.innerHTML =
+            '<i class="fas fa-spinner animate-spin mr-2"></i>Đang gửi...';
 
           // Format parameters as application/x-www-form-urlencoded for Google Sheets / Formspree compatibility
           const formData = new URLSearchParams();
@@ -1406,8 +1504,8 @@
             method: "POST",
             body: formData,
             headers: {
-              "Content-Type": "application/x-www-form-urlencoded"
-            }
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
           };
 
           if (isGoogleScript) {
@@ -1415,29 +1513,31 @@
           }
 
           fetch(action, fetchOptions)
-          .then(response => {
-            submitBtn.disabled = false;
-            submitBtn.innerHTML = originalBtnText;
-            
-            // For Google Script with no-cors, response is opaque (status 0), but it was sent successfully
-            if (isGoogleScript || (response && response.ok)) {
-              showToast("Cảm ơn bạn đã gửi xác nhận!");
-              form.reset();
-            } else {
-              showToast("Gặp sự cố khi gửi dữ liệu! Lời chúc đã lưu trên máy.");
-            }
-          })
-          .catch(error => {
-            submitBtn.disabled = false;
-            submitBtn.innerHTML = originalBtnText;
-            if (isGoogleScript) {
-              showToast("Cảm ơn bạn đã gửi xác nhận!");
-              form.reset();
-            } else {
-              showToast("Sự cố mạng! Lời chúc đã được lưu tạm trên máy.");
-            }
-            console.error("Error submitting:", error);
-          });
+            .then((response) => {
+              submitBtn.disabled = false;
+              submitBtn.innerHTML = originalBtnText;
+
+              // For Google Script with no-cors, response is opaque (status 0), but it was sent successfully
+              if (isGoogleScript || (response && response.ok)) {
+                showToast("Cảm ơn bạn đã gửi xác nhận!");
+                form.reset();
+              } else {
+                showToast(
+                  "Gặp sự cố khi gửi dữ liệu! Lời chúc đã lưu trên máy.",
+                );
+              }
+            })
+            .catch((error) => {
+              submitBtn.disabled = false;
+              submitBtn.innerHTML = originalBtnText;
+              if (isGoogleScript) {
+                showToast("Cảm ơn bạn đã gửi xác nhận!");
+                form.reset();
+              } else {
+                showToast("Sự cố mạng! Lời chúc đã được lưu tạm trên máy.");
+              }
+              console.error("Error submitting:", error);
+            });
         } else {
           // If no URL configured yet, show local success
           showToast("Cảm ơn bạn đã gửi xác nhận!");
@@ -1454,7 +1554,7 @@
             if (guests.length > 0) {
               guestListBody.innerHTML = "";
             }
-            guests.forEach(guest => {
+            guests.forEach((guest) => {
               const statusClass =
                 guest.status === "Có"
                   ? "bg-green-100 text-green-700"
@@ -1476,7 +1576,11 @@
       }
 
       function clearGuestList() {
-        if (confirm("Bạn có chắc chắn muốn xóa toàn bộ danh sách khách mời đã lưu trên trình duyệt?")) {
+        if (
+          confirm(
+            "Bạn có chắc chắn muốn xóa toàn bộ danh sách khách mời đã lưu trên trình duyệt?",
+          )
+        ) {
           localStorage.removeItem("rsvp_guests");
           document.getElementById("guest-list-body").innerHTML = `
             <tr class="border-b border-gray-100">
@@ -1493,6 +1597,7 @@
 
       // Load saved RSVP guests on page load
       document.addEventListener("DOMContentLoaded", () => {
+        window.scrollTo(0, 0); // Force scroll to top on load
         loadRsvpGuests();
       });
 
